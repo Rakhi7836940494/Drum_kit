@@ -9,6 +9,6 @@ button.addEventListener("click",(e)=>{
 })
 
 function Sound(value){
-    let voice=new Audio(`drum-sound/${value}.mp3`);
+    let voice=new Audio(`${value}.mp3`);
     voice.play();
 }
